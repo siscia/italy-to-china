@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1425.7444"
+   height="1425.7454"
+   viewBox="0 0 2.8514888 2.8514907"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="Flag_of_Italy.svg">
+  <metadata
+     id="metadata14">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs12">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3036">
+      <path
+         sodipodi:type="arc"
+         style="fill:#00ffff;fill-opacity:0.46788994;stroke-width:7;stroke-miterlimit:4;stroke-dasharray:none"
+         id="path3038"
+         sodipodi:cx="757.42572"
+         sodipodi:cy="500"
+         sodipodi:rx="712.87128"
+         sodipodi:ry="712.87128"
+         d="M 1470.297,500 A 712.87128,712.87128 0 1 1 44.554443,500 712.87128,712.87128 0 1 1 1470.297,500 z"
+         transform="matrix(0.0017464,0,0,0.00106316,0.19020173,0.46842106)" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="702"
+     id="namedview10"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.202"
+     inkscape:cx="1834.1584"
+     inkscape:cy="757.42812"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2">
+    <sodipodi:guide
+       orientation="0,1"
+       position="2712.8713,1257.4281"
+       id="guide3002" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="1064.3564,257.42812"
+       id="guide3004" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="400.99006,757.42812"
+       id="guide3014" />
+    <sodipodi:guide
+       orientation="-0.70710678,0.70710678"
+       position="2965.3465,1004.9529"
+       id="guide3016" />
+    <sodipodi:guide
+       orientation="-0.70710678,0.70710678"
+       position="1717.8218,757.42812"
+       id="guide3018" />
+    <sodipodi:guide
+       orientation="0.70710678,0.70710678"
+       position="2722.7723,257.42812"
+       id="guide3022" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="2470.297,1653.4677"
+       id="guide3024" />
+  </sodipodi:namedview>
+  <g
+     id="g2993"
+     transform="translate(3.4257425,0.33663448)">
+    <rect
+       id="rect4"
+       height="2"
+       width="1"
+       x="0"
+       y="0"
+       style="fill:#009246" />
+    <rect
+       id="rect6"
+       x="1"
+       height="2"
+       width="1"
+       y="0"
+       style="fill:#ffffff" />
+    <rect
+       id="rect8"
+       x="2"
+       height="2"
+       width="1"
+       y="0"
+       style="fill:#ce2b37" />
+  </g>
+  <g
+     id="g3006"
+     transform="matrix(1.1452145,0,0,1.8811881,-0.30693078,-0.45544473)"
+     clip-path="url(#clipPath3036)">
+    <rect
+       width="1"
+       height="2"
+       id="rect3008"
+       x="0"
+       y="0"
+       style="fill:#009246" />
+    <rect
+       width="1"
+       height="2"
+       x="1"
+       id="rect3010"
+       y="0"
+       style="fill:#ffffff" />
+    <rect
+       width="1"
+       height="2"
+       x="2"
+       id="rect3012"
+       y="0"
+       style="fill:#ce2b37" />
+  </g>
+</svg>

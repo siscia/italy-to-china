@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="836.61804"
+   height="815.96082"
+   viewBox="-5 -5 16.732361 16.319216"
+   id="svg3067"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="Flag_of_the_People's_Republic_of_China.svg">
+  <metadata
+     id="metadata3088">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Flag of the People's Republic of China</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="702"
+     id="namedview3086"
+     showgrid="false"
+     fit-margin-top="-2.7755576e-17"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.20466667"
+     inkscape:cx="1137.5706"
+     inkscape:cy="-213.35526"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg3067" />
+  <title
+     id="title3069">Flag of the People's Republic of China</title>
+  <defs
+     id="defs3073">
+    <polygon
+       id="s"
+       points="-488533,-158734 488533,-158734 -301930,415571 0,-513674 301930,415571 "
+       transform="scale(1.94676e-6,1.94676e-6)"
+       style="fill:#ffde00" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3871">
+      <path
+         sodipodi:type="arc"
+         style="fill:#00ffff;fill-opacity:0.46788994;stroke-width:7;stroke-miterlimit:4;stroke-dasharray:none"
+         id="path3873"
+         sodipodi:cx="310.26059"
+         sodipodi:cy="1202.7687"
+         sodipodi:rx="315.14658"
+         sodipodi:ry="315.14658"
+         d="m 625.40717,1202.7687 a 315.14658,315.14658 0 1 1 -630.2931563,0 315.14658,315.14658 0 1 1 630.2931563,0 z"
+         transform="matrix(0.02654695,0,0,0.02589147,3.4532146,-24.594221)" />
+    </clipPath>
+  </defs>
+  <g
+     id="g3875"
+     transform="translate(-8.3235066,-3.38762)">
+    <rect
+       clip-path="url(#clipPath3871)"
+       id="rect3071"
+       height="20"
+       width="30"
+       y="-5"
+       x="-5"
+       style="fill:#de2910" />
+    <g
+       transform="translate(7.6221498,4.2019544)"
+       id="g3864">
+      <use
+         xlink:href="#s"
+         transform="scale(3,3)"
+         id="use3076"
+         x="0"
+         y="0"
+         width="30"
+         height="20" />
+      <use
+         height="20"
+         width="30"
+         y="0"
+         x="0"
+         xlink:href="#s"
+         transform="matrix(-0.51449575,-0.85749293,0.85749293,-0.51449575,5,-3)"
+         id="use3078" />
+      <use
+         height="20"
+         width="30"
+         y="0"
+         x="0"
+         xlink:href="#s"
+         transform="matrix(-0.14142135,-0.98994949,0.98994949,-0.14142135,7,-1)"
+         id="use3080" />
+      <use
+         height="20"
+         width="30"
+         y="0"
+         x="0"
+         xlink:href="#s"
+         transform="matrix(0.27472113,-0.96152395,0.96152395,0.27472113,7,2)"
+         id="use3082" />
+      <use
+         height="20"
+         width="30"
+         y="0"
+         x="0"
+         xlink:href="#s"
+         transform="matrix(0.62469505,-0.78086881,0.78086881,0.62469505,5,4)"
+         id="use3084" />
+    </g>
+  </g>
+</svg>

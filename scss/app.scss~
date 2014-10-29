@@ -16,9 +16,6 @@ img.centered-85 {
     @include img-centered(85%);
 }
 
-img.centered-75 {
-    @include img-centered(75%);
-}
 
 // Or selectively include components
 // @import
