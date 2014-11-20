@@ -9057,7 +9057,53 @@ th.hide-for-touch {
     display: table-cell !important;
   }
 }
-/* line 11, ../scss/app.scss */
+@font-face {
+  font-family: 'baron_neuenormal_50';
+  src: url("../font/baronNeue/baron_neue_normal_50-webfont.eot");
+  src: url("../font/baronNeue/baron_neue_normal_50-webfont.eot?#iefix") format("embedded-opentype"), url("../font/baronNeue/baron_neue_normal_50-webfont.woff2") format("woff2"), url("../font/baronNeue/baron_neue_normal_50-webfont.woff") format("woff"), url("../font/baronNeue/baron_neue_normal_50-webfont.ttf") format("truetype"), url("../font/baronNeue/baron_neue_normal_50-webfont.svg#baron_neuenormal_50") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'caviar_dreamsitalic';
+  src: url("../font/CaviarDream/caviardreams_italic-webfont.eot");
+  src: url("../font/CaviarDream/italic-webfont.eot?#iefix") format("embedded-opentype"), url("../font/CaviarDream/italic-webfont.woff2") format("woff2"), url("../font/CaviarDream/italic-webfont.woff") format("woff"), url("../font/CaviarDream/italic-webfont.ttf") format("truetype"), url("../font/CaviarDream/italic-webfont.svg#caviar_dreamsitalic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'caviar_dreamsbold';
+  src: url("../font/CaviarDream/bold-webfont.eot");
+  src: url("../font/CaviarDream/bold-webfont.eot?#iefix") format("embedded-opentype"), url("../font/CaviarDream/bold-webfont.woff2") format("woff2"), url("../font/CaviarDream/bold-webfont.woff") format("woff"), url("../font/CaviarDream/bold-webfont.ttf") format("truetype"), url("../font/CaviarDream/bold-webfont.svg#caviar_dreamsbold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'caviar_dreamsbold_italic';
+  src: url("../font/CaviarDream/bolditalic-webfont.eot");
+  src: url("../font/CaviarDream/bolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("../font/CaviarDream/bolditalic-webfont.woff2") format("woff2"), url("../font/CaviarDream/bolditalic-webfont.woff") format("woff"), url("../font/CaviarDream/bolditalic-webfont.ttf") format("truetype"), url("../font/CaviarDream/bolditalic-webfont.svg#caviar_dreamsbold_italic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'caviar_dreamsregular';
+  src: url("../font/CaviarDream/caviardreams-webfont.eot");
+  src: url("../font/CaviarDream/caviardreams-webfont.eot?#iefix") format("embedded-opentype"), url("../font/CaviarDream/caviardreams-webfont.woff2") format("woff2"), url("../font/CaviarDream/caviardreams-webfont.woff") format("woff"), url("../font/CaviarDream/caviardreams-webfont.ttf") format("truetype"), url("../font/CaviarDream/caviardreams-webfont.svg#caviar_dreamsregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Baron Neue 50';
+  src: url("../font/BaronNeue/baron_neue_normal_50-webfont.eot");
+  src: url("../font/BaronNeue/baron_neue_normal_50-webfont.eot?#iefix") format("embedded-opentype"), url("../font/BaronNeue/baron_neue_normal_50-webfont.woff2") format("woff2"), url("../font/BaronNeue/baron_neue_normal_50-webfont.woff") format("woff"), url("../font/BaronNeue/baron_neue_normal_50-webfont.ttf") format("truetype"), url("../font/BaronNeue/baron_neue_normal_50-webfont.svg#baron_neuenormal_50") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'BaronNeue';
+  src: url("../font/baron-neue/Baron Neue/Baron Neue Normal 50.otf") format "otf";
+}
+/* line 103, ../scss/app.scss */
 img.centered-90 {
   display: block;
   margin-left: auto;
@@ -9065,7 +9111,7 @@ img.centered-90 {
   max-width: 90%;
 }
 
-/* line 15, ../scss/app.scss */
+/* line 107, ../scss/app.scss */
 img.centered-85 {
   display: block;
   margin-left: auto;
@@ -9073,10 +9119,35 @@ img.centered-85 {
   max-width: 85%;
 }
 
-/* line 19, ../scss/app.scss */
+/* line 111, ../scss/app.scss */
 img.centered-75 {
   display: block;
   margin-left: auto;
   margin-right: auto;
   max-width: 75%;
+}
+
+/* line 123, ../scss/app.scss */
+.full-screen {
+  height: 100%;
+  width: 100%;
+}
+
+/* line 128, ../scss/app.scss */
+h1 {
+  font-size: 36px;
+  font-size: 6vw;
+}
+
+/* line 133, ../scss/app.scss */
+.title {
+  font-family: 'caviar_dreamsbold';
+  color: #E01818;
+  margin-left: 0.5em;
+}
+
+/* line 139, ../scss/app.scss */
+.dont-just-stand-there {
+  background: url("../image/dont-just-stand-there-bw-small.jpeg") no-repeat center center fixed;
+  background-size: cover;
 }
