@@ -1,5 +1,97 @@
 @import "settings";
 @import "foundation";
+@import "compass/css3";
+
+// @font-face {
+//     //ok
+//     font-family: 'baron_neuenormal_50';
+//     src: url('../font/baronNeue/baron_neue_normal_50-webfont.eot');
+//     src: url('../font/baronNeue/baron_neue_normal_50-webfont.eot?#iefix') format('embedded-opentype'),
+//          url('../font/baronNeue/baron_neue_normal_50-webfont.woff2') format('woff2'),
+//          url('../font/baronNeue/baron_neue_normal_50-webfont.woff') format('woff'),
+//          url('../font/baronNeue/baron_neue_normal_50-webfont.ttf') format('truetype'),
+//          url('../font/baronNeue/baron_neue_normal_50-webfont.svg#baron_neuenormal_50') format('svg');
+//     font-weight: normal;
+//     font-style: normal;
+// }
+
+@font-face {
+    font-family: 'neue';
+    src: url('../font/neou/Neou-Thin.ttf');
+    src: url('../font/neou/Neou-Thin.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'neue';
+    src: url('../font/neou/Neou-Bold.ttf');
+    src: url('../font/neou/Neou-Bold.otf');
+    font-weight: bold;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: 'caviar_dreamsitalic';
+    src: url('../font/CaviarDream/caviardreams_italic-webfont.eot');
+    src: url('../font/CaviarDream/italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/CaviarDream/italic-webfont.woff2') format('woff2'),
+         url('../font/CaviarDream/italic-webfont.woff') format('woff'),
+         url('../font/CaviarDream/italic-webfont.ttf') format('truetype'),
+         url('../font/CaviarDream/italic-webfont.svg#caviar_dreamsitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'caviar_dreamsbold';
+    src: url('../font/CaviarDream/bold-webfont.eot');
+    src: url('../font/CaviarDream/bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/CaviarDream/bold-webfont.woff2') format('woff2'),
+         url('../font/CaviarDream/bold-webfont.woff') format('woff'),
+         url('../font/CaviarDream/bold-webfont.ttf') format('truetype'),
+         url('../font/CaviarDream/bold-webfont.svg#caviar_dreamsbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'caviar_dreamsbold_italic';
+    src: url('../font/CaviarDream/bolditalic-webfont.eot');
+    src: url('../font/CaviarDream/bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/CaviarDream/bolditalic-webfont.woff2') format('woff2'),
+         url('../font/CaviarDream/bolditalic-webfont.woff') format('woff'),
+         url('../font/CaviarDream/bolditalic-webfont.ttf') format('truetype'),
+         url('../font/CaviarDream/bolditalic-webfont.svg#caviar_dreamsbold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'caviar_dreamsregular';
+    src: url('../font/CaviarDream/caviardreams-webfont.eot');
+    src: url('../font/CaviarDream/caviardreams-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/CaviarDream/caviardreams-webfont.woff2') format('woff2'),
+         url('../font/CaviarDream/caviardreams-webfont.woff') format('woff'),
+         url('../font/CaviarDream/caviardreams-webfont.ttf') format('truetype'),
+         url('../font/CaviarDream/caviardreams-webfont.svg#caviar_dreamsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Baron Neue 50';
+    src: url('../font/BaronNeue/baron_neue_normal_50-webfont.eot');
+    src: url('../font/BaronNeue/baron_neue_normal_50-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/BaronNeue/baron_neue_normal_50-webfont.woff2') format('woff2'),
+         url('../font/BaronNeue/baron_neue_normal_50-webfont.woff') format('woff'),
+         url('../font/BaronNeue/baron_neue_normal_50-webfont.ttf') format('truetype'),
+         url('../font/BaronNeue/baron_neue_normal_50-webfont.svg#baron_neuenormal_50') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 
 @mixin img-centered($dim){
     display: block;
@@ -20,40 +112,58 @@ img.centered-75 {
     @include img-centered(75%);
 }
 
-// Or selectively include components
-// @import
-//   "foundation/components/accordion",
-//   "foundation/components/alert-boxes",
-//   "foundation/components/block-grid",
-//   "foundation/components/breadcrumbs",
-//   "foundation/components/button-groups",
-//   "foundation/components/buttons",
-//   "foundation/components/clearing",
-//   "foundation/components/dropdown",
-//   "foundation/components/dropdown-buttons",
-//   "foundation/components/flex-video",
-//   "foundation/components/forms",
-//   "foundation/components/grid",
-//   "foundation/components/inline-lists",
-//   "foundation/components/joyride",
-//   "foundation/components/keystrokes",
-//   "foundation/components/labels",
-//   "foundation/components/magellan",
-//   "foundation/components/orbit",
-//   "foundation/components/pagination",
-//   "foundation/components/panels",
-//   "foundation/components/pricing-tables",
-//   "foundation/components/progress-bars",
-//   "foundation/components/reveal",
-//   "foundation/components/side-nav",
-//   "foundation/components/split-buttons",
-//   "foundation/components/sub-nav",
-//   "foundation/components/switches",
-//   "foundation/components/tables",
-//   "foundation/components/tabs",
-//   "foundation/components/thumbs",
-//   "foundation/components/tooltips",
-//   "foundation/components/top-bar",
-//   "foundation/components/type",
-//   "foundation/components/offcanvas",
-//   "foundation/components/visibility";
+@mixin full-height {
+    height: 100%;
+}
+
+@mixin full-width {
+    width: 100%;
+}
+
+.full-screen {
+    @include full-height;
+    @include full-width;
+}
+
+h1 {
+    font-size: 36px;
+    font-size: 6vw;
+}
+
+.title {
+    font-family: 'neue';
+    font-weight: bold;
+    color: #E01818;
+    margin-left: 0.5em;
+    margin-top: 1em;
+    //padding-bottom: 0.5em;
+    vertical-align: middle;
+}
+
+@mixin image-background($path) {
+    background: url($path) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.dont-just-stand-there {
+    @include image-background('../image/dont-just-stand-there-bw-small.jpeg')
+}
+
+.measure {
+    @include image-background('../image/take-measurable-action-bw.jpeg')
+}
+
+.black-background {
+    h1, h2, h3, p {
+	color: white;
+	padding: 0.2em;
+	font-family:  'neue';
+	font-weight: normal;
+	font-style: normal;
+    }
+    background: url('../image/footer_lodyas/footer_lodyas/footer_lodyas.png') repeat;
+}
+
+.blur {
+    background-color: rgba(255, 255, 255, 0.5);
+}

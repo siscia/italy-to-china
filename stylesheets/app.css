@@ -9058,11 +9058,18 @@ th.hide-for-touch {
   }
 }
 @font-face {
-  font-family: 'baron_neuenormal_50';
-  src: url("../font/baronNeue/baron_neue_normal_50-webfont.eot");
-  src: url("../font/baronNeue/baron_neue_normal_50-webfont.eot?#iefix") format("embedded-opentype"), url("../font/baronNeue/baron_neue_normal_50-webfont.woff2") format("woff2"), url("../font/baronNeue/baron_neue_normal_50-webfont.woff") format("woff"), url("../font/baronNeue/baron_neue_normal_50-webfont.ttf") format("truetype"), url("../font/baronNeue/baron_neue_normal_50-webfont.svg#baron_neuenormal_50") format("svg");
+  font-family: 'neue';
+  src: url("../font/neou/Neou-Thin.ttf");
+  src: url("../font/neou/Neou-Thin.otf");
   font-weight: normal;
   font-style: normal;
+}
+@font-face {
+  font-family: 'neue';
+  src: url("../font/neou/Neou-Bold.ttf");
+  src: url("../font/neou/Neou-Bold.otf");
+  font-weight: bold;
+  font-style: bold;
 }
 @font-face {
   font-family: 'caviar_dreamsitalic';
@@ -9098,10 +9105,6 @@ th.hide-for-touch {
   src: url("../font/BaronNeue/baron_neue_normal_50-webfont.eot?#iefix") format("embedded-opentype"), url("../font/BaronNeue/baron_neue_normal_50-webfont.woff2") format("woff2"), url("../font/BaronNeue/baron_neue_normal_50-webfont.woff") format("woff"), url("../font/BaronNeue/baron_neue_normal_50-webfont.ttf") format("truetype"), url("../font/BaronNeue/baron_neue_normal_50-webfont.svg#baron_neuenormal_50") format("svg");
   font-weight: normal;
   font-style: normal;
-}
-@font-face {
-  font-family: 'BaronNeue';
-  src: url("../font/baron-neue/Baron Neue/Baron Neue Normal 50.otf") format "otf";
 }
 /* line 103, ../scss/app.scss */
 img.centered-90 {
@@ -9141,13 +9144,40 @@ h1 {
 
 /* line 133, ../scss/app.scss */
 .title {
-  font-family: 'caviar_dreamsbold';
+  font-family: 'neue';
+  font-weight: bold;
   color: #E01818;
   margin-left: 0.5em;
+  margin-top: 1em;
+  vertical-align: middle;
 }
 
-/* line 139, ../scss/app.scss */
+/* line 148, ../scss/app.scss */
 .dont-just-stand-there {
   background: url("../image/dont-just-stand-there-bw-small.jpeg") no-repeat center center fixed;
   background-size: cover;
+}
+
+/* line 152, ../scss/app.scss */
+.measure {
+  background: url("../image/take-measurable-action-bw.jpeg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* line 156, ../scss/app.scss */
+.black-background {
+  background: url("../image/footer_lodyas/footer_lodyas/footer_lodyas.png") repeat;
+}
+/* line 157, ../scss/app.scss */
+.black-background h1, .black-background h2, .black-background h3, .black-background p {
+  color: white;
+  padding: 0.2em;
+  font-family: 'neue';
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 167, ../scss/app.scss */
+.blur {
+  background-color: rgba(255, 255, 255, 0.5);
 }
