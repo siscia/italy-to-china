@@ -154,7 +154,7 @@ h1 {
 }
 
 .black-background {
-    h1, h2, h3, p {
+    h1, h2, h3, p, li {
 	color: white;
 	padding: 0.2em;
 	font-family:  'neue';
@@ -162,6 +162,10 @@ h1 {
 	font-style: normal;
     }
     background: url('../image/footer_lodyas/footer_lodyas/footer_lodyas.png') repeat;
+}
+
+.custom-panel {
+    background-color: rgba(0, 0, 0, 0.15);
 }
 
 .blur {

@@ -9169,7 +9169,7 @@ h1 {
   background: url("../image/footer_lodyas/footer_lodyas/footer_lodyas.png") repeat;
 }
 /* line 157, ../scss/app.scss */
-.black-background h1, .black-background h2, .black-background h3, .black-background p {
+.black-background h1, .black-background h2, .black-background h3, .black-background p, .black-background li {
   color: white;
   padding: 0.2em;
   font-family: 'neue';
@@ -9178,6 +9178,11 @@ h1 {
 }
 
 /* line 167, ../scss/app.scss */
+.custom-panel {
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+/* line 171, ../scss/app.scss */
 .blur {
   background-color: rgba(255, 255, 255, 0.5);
 }
