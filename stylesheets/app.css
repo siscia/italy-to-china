@@ -9058,55 +9058,18 @@ th.hide-for-touch {
   }
 }
 @font-face {
-  font-family: 'neue';
-  src: url("../font/neou/Neou-Thin.ttf");
-  src: url("../font/neou/Neou-Thin.otf");
+  font-family: 'CaviarDreams';
+  src: url("../font/caviar_dreams/CaviarDreams.ttf");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: 'neue';
-  src: url("../font/neou/Neou-Bold.ttf");
-  src: url("../font/neou/Neou-Bold.otf");
+  font-family: 'CaviarDreams';
+  src: url("../font/caviar_dreams/CaviarDreams_Bold.ttf");
   font-weight: bold;
-  font-style: bold;
-}
-@font-face {
-  font-family: 'caviar_dreamsitalic';
-  src: url("../font/CaviarDream/caviardreams_italic-webfont.eot");
-  src: url("../font/CaviarDream/italic-webfont.eot?#iefix") format("embedded-opentype"), url("../font/CaviarDream/italic-webfont.woff2") format("woff2"), url("../font/CaviarDream/italic-webfont.woff") format("woff"), url("../font/CaviarDream/italic-webfont.ttf") format("truetype"), url("../font/CaviarDream/italic-webfont.svg#caviar_dreamsitalic") format("svg");
-  font-weight: normal;
   font-style: normal;
 }
-@font-face {
-  font-family: 'caviar_dreamsbold';
-  src: url("../font/CaviarDream/bold-webfont.eot");
-  src: url("../font/CaviarDream/bold-webfont.eot?#iefix") format("embedded-opentype"), url("../font/CaviarDream/bold-webfont.woff2") format("woff2"), url("../font/CaviarDream/bold-webfont.woff") format("woff"), url("../font/CaviarDream/bold-webfont.ttf") format("truetype"), url("../font/CaviarDream/bold-webfont.svg#caviar_dreamsbold") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'caviar_dreamsbold_italic';
-  src: url("../font/CaviarDream/bolditalic-webfont.eot");
-  src: url("../font/CaviarDream/bolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("../font/CaviarDream/bolditalic-webfont.woff2") format("woff2"), url("../font/CaviarDream/bolditalic-webfont.woff") format("woff"), url("../font/CaviarDream/bolditalic-webfont.ttf") format("truetype"), url("../font/CaviarDream/bolditalic-webfont.svg#caviar_dreamsbold_italic") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'caviar_dreamsregular';
-  src: url("../font/CaviarDream/caviardreams-webfont.eot");
-  src: url("../font/CaviarDream/caviardreams-webfont.eot?#iefix") format("embedded-opentype"), url("../font/CaviarDream/caviardreams-webfont.woff2") format("woff2"), url("../font/CaviarDream/caviardreams-webfont.woff") format("woff"), url("../font/CaviarDream/caviardreams-webfont.ttf") format("truetype"), url("../font/CaviarDream/caviardreams-webfont.svg#caviar_dreamsregular") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Baron Neue 50';
-  src: url("../font/BaronNeue/baron_neue_normal_50-webfont.eot");
-  src: url("../font/BaronNeue/baron_neue_normal_50-webfont.eot?#iefix") format("embedded-opentype"), url("../font/BaronNeue/baron_neue_normal_50-webfont.woff2") format("woff2"), url("../font/BaronNeue/baron_neue_normal_50-webfont.woff") format("woff"), url("../font/BaronNeue/baron_neue_normal_50-webfont.ttf") format("truetype"), url("../font/BaronNeue/baron_neue_normal_50-webfont.svg#baron_neuenormal_50") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-/* line 103, ../scss/app.scss */
+/* line 29, ../scss/app.scss */
 img.centered-90 {
   display: block;
   margin-left: auto;
@@ -9114,7 +9077,7 @@ img.centered-90 {
   max-width: 90%;
 }
 
-/* line 107, ../scss/app.scss */
+/* line 33, ../scss/app.scss */
 img.centered-85 {
   display: block;
   margin-left: auto;
@@ -9122,7 +9085,7 @@ img.centered-85 {
   max-width: 85%;
 }
 
-/* line 111, ../scss/app.scss */
+/* line 37, ../scss/app.scss */
 img.centered-75 {
   display: block;
   margin-left: auto;
@@ -9130,59 +9093,102 @@ img.centered-75 {
   max-width: 75%;
 }
 
-/* line 123, ../scss/app.scss */
+/* line 49, ../scss/app.scss */
 .full-screen {
   height: 100%;
   width: 100%;
 }
 
-/* line 128, ../scss/app.scss */
+/* line 54, ../scss/app.scss */
 h1 {
   font-size: 36px;
   font-size: 6vw;
 }
 
-/* line 133, ../scss/app.scss */
+/* line 59, ../scss/app.scss */
 .title {
-  font-family: 'neue';
+  font-family: "CaviarDreams";
   font-weight: bold;
-  color: #E01818;
+  color: #e01818;
   margin-left: 0.5em;
   margin-top: 1em;
   vertical-align: middle;
 }
 
-/* line 148, ../scss/app.scss */
+/* line 73, ../scss/app.scss */
 .dont-just-stand-there {
   background: url("../image/dont-just-stand-there-bw-small.jpeg") no-repeat center center fixed;
   background-size: cover;
 }
 
-/* line 152, ../scss/app.scss */
+/* line 77, ../scss/app.scss */
 .measure {
   background: url("../image/take-measurable-action-bw.jpeg") no-repeat center center fixed;
   background-size: cover;
 }
 
-/* line 156, ../scss/app.scss */
+/* line 86, ../scss/app.scss */
 .black-background {
   background: url("../image/footer_lodyas/footer_lodyas/footer_lodyas.png") repeat;
+  font-size: 1rem;
+  padding: 1em;
 }
-/* line 157, ../scss/app.scss */
-.black-background h1, .black-background h2, .black-background h3, .black-background p, .black-background li {
+/* line 90, ../scss/app.scss */
+.black-background h1, .black-background h2, .black-background h3, .black-background p, .black-background li, .black-background label, .black-background input, .black-background textarea {
   color: white;
   padding: 0.2em;
-  font-family: 'neue';
+  font-family: "CaviarDreams";
   font-weight: normal;
   font-style: normal;
 }
+/* line 97, ../scss/app.scss */
+.black-background h1 {
+  color: #e01818;
+}
+/* line 98, ../scss/app.scss */
+.black-background input, .black-background textarea {
+  font-size: 1.3rem;
+  border: 0;
+}
+/* line 101, ../scss/app.scss */
+.black-background input:focus, .black-background textarea:focus {
+  background-color: rgba(0, 0, 0, 0.15);
+}
+/* line 102, ../scss/app.scss */
+.black-background input[type="text"],
+.black-background input[type="email"],
+.black-background input[type="submit"],
+.black-background textarea {
+  background-color: rgba(0, 0, 0, 0.15);
+}
+/* line 106, ../scss/app.scss */
+.black-background input[type="submit"] {
+  background-color: rgba(0, 0, 0, 0.15);
+  width: 85%;
+}
+/* line 108, ../scss/app.scss */
+.black-background input[type="submit"]:hover {
+  background-color: #e01818;
+}
 
-/* line 167, ../scss/app.scss */
+/* line 111, ../scss/app.scss */
+.blur {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* line 115, ../scss/app.scss */
 .custom-panel {
   background-color: rgba(0, 0, 0, 0.15);
 }
 
-/* line 171, ../scss/app.scss */
-.blur {
-  background-color: rgba(255, 255, 255, 0.5);
+/* line 119, ../scss/app.scss */
+.footer {
+  margin-top: 0.1em;
+  padding: 1.5em;
+}
+
+/* line 124, ../scss/app.scss */
+.heart {
+  color: #e01818;
+  font-size: 1.8rem;
 }
