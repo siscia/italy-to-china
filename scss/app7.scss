@@ -1,0 +1,132 @@
+@import "settings";
+@import "foundation";
+@import "compass/css3/font-face";
+
+//$font-stack: 'CaviarDreams';
+
+$font-bold: 'amblebold';
+$font-normal: 'ambleregular';
+
+
+$color: #E01818;
+
+@font-face {
+    font-family: 'CaviarDreams';
+    src: url('../font/caviar_dreams/CaviarDreams.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CaviarDreams';
+    src: url('../font/caviar_dreams/CaviarDreams_Bold.ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@mixin img-centered($dim){
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: $dim;
+}
+
+img.centered-90 {
+    @include img-centered(90%);
+}
+
+img.centered-85 {
+    @include img-centered(85%);
+}
+
+img.centered-75 {
+    @include img-centered(75%);
+}
+
+@mixin full-height {
+    height: 100%;
+}
+
+@mixin full-width {
+    width: 100%;
+}
+
+.full-screen {
+    @include full-height;
+    @include full-width;
+}
+
+h1 {
+    font-size: 36px;
+    font-size: 6vw;
+}
+
+.title {
+    font-family: $font-bold;
+    font-weight: normal;
+    color: $color;
+    margin-left: 0.5em;
+    margin-top: 1em;
+    vertical-align: middle;
+}
+
+@mixin image-background($path) {
+    background: url($path) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.dont-just-stand-there {
+    @include image-background('../image/dont-just-stand-there-bw-small.jpeg')
+}
+
+.measure {
+    @include image-background('../image/take-measurable-action-bw.jpeg')
+}
+
+
+@mixin adapt-to-background {
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+.black-background {
+    background: url('../image/footer_lodyas/footer_lodyas/footer_lodyas.png') repeat;
+    font-size: 1rem;
+    padding: 1em;
+    h1, h2, h3, p, li, label, input, textarea {
+	color: white;
+	padding: 0.2em;
+	font-family:  $font-normal;
+	font-weight: normal;
+	font-style: normal;
+    }
+    h1 {color: $color;}
+    input, textarea {
+	font-size: 1.3rem;
+	border: 0;
+	&:focus { @include adapt-to-background} }
+    input[type="text"],
+    input[type="email"],
+    input[type="submit"],
+    textarea { @include adapt-to-background}
+    input[type="submit"] {@include adapt-to-background;
+			  width: 85%;
+			  &:hover {background-color: $color;}}
+}
+
+.blur {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.custom-panel {
+    @include adapt-to-background
+}
+
+.footer {
+    margin-top: 0.1em;
+    padding: 1.5em;
+}
+
+.heart {
+    color: $color;
+    font-size: 1.8rem;
+}
