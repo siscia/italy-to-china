@@ -8,7 +8,7 @@
 // $font-normal: 'quicksandregular';
 
 $font-bold: 'CaviarDreams';
-$font-normal: 'CaviarDreams';
+$font-normal: 'CaviarDreamsBold';
 
 $color: #E01818;
 
@@ -20,9 +20,9 @@ $color: #E01818;
 }
 
 @font-face {
-    font-family: 'CaviarDreams';
+    font-family: 'CaviarDreamsBold';
     src: url('../font/caviar_dreams/CaviarDreams_Bold.ttf');
-    font-weight: bold;
+    font-weight: normal;
     font-style: normal;
 }
 

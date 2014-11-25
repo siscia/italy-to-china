@@ -9064,9 +9064,9 @@ th.hide-for-touch {
   font-style: normal;
 }
 @font-face {
-  font-family: 'CaviarDreams';
+  font-family: 'CaviarDreamsBold';
   src: url("../font/caviar_dreams/CaviarDreams_Bold.ttf");
-  font-weight: bold;
+  font-weight: normal;
   font-style: normal;
 }
 /* line 36, ../scss/app1.scss */
@@ -9137,7 +9137,7 @@ h1 {
 .black-background h1, .black-background h2, .black-background h3, .black-background p, .black-background li, .black-background label, .black-background input, .black-background textarea {
   color: white;
   padding: 0.2em;
-  font-family: "CaviarDreams";
+  font-family: "CaviarDreamsBold";
   font-weight: normal;
   font-style: normal;
 }
