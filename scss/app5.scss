@@ -4,11 +4,9 @@
 
 //$font-stack: 'CaviarDreams';
 
-// $font-bold: 'quicksandbold';
-// $font-normal: 'quicksandregular';
+$font-bold: 'source_sans_prosemibold';
+$font-normal: 'source_sans_proregular';
 
-$font-bold: 'CaviarDreams';
-$font-normal: 'CaviarDreams';
 
 $color: #E01818;
 
@@ -65,7 +63,7 @@ h1 {
 
 .title {
     font-family: $font-bold;
-    font-weight: bold;
+    font-weight: normal;
     color: $color;
     margin-left: 0.5em;
     margin-top: 1em;
