@@ -9069,7 +9069,7 @@ th.hide-for-touch {
   font-weight: bold;
   font-style: normal;
 }
-/* line 36, ../scss/app.scss */
+/* line 34, ../scss/app3.scss */
 img.centered-90 {
   display: block;
   margin-left: auto;
@@ -9077,7 +9077,7 @@ img.centered-90 {
   max-width: 90%;
 }
 
-/* line 40, ../scss/app.scss */
+/* line 38, ../scss/app3.scss */
 img.centered-85 {
   display: block;
   margin-left: auto;
@@ -9085,7 +9085,7 @@ img.centered-85 {
   max-width: 85%;
 }
 
-/* line 44, ../scss/app.scss */
+/* line 42, ../scss/app3.scss */
 img.centered-75 {
   display: block;
   margin-left: auto;
@@ -9093,101 +9093,101 @@ img.centered-75 {
   max-width: 75%;
 }
 
-/* line 56, ../scss/app.scss */
+/* line 54, ../scss/app3.scss */
 .full-screen {
   height: 100%;
   width: 100%;
 }
 
-/* line 61, ../scss/app.scss */
+/* line 59, ../scss/app3.scss */
 h1 {
   font-size: 36px;
   font-size: 6vw;
 }
 
-/* line 66, ../scss/app.scss */
+/* line 64, ../scss/app3.scss */
 .title {
-  font-family: "CaviarDreams";
-  font-weight: bold;
+  font-family: "fira_sansbold";
+  font-weight: normal;
   color: #e01818;
   margin-left: 0.5em;
   margin-top: 1em;
   vertical-align: middle;
 }
 
-/* line 80, ../scss/app.scss */
+/* line 78, ../scss/app3.scss */
 .dont-just-stand-there {
   background: url("../image/dont-just-stand-there-bw-small.jpeg") no-repeat center center fixed;
   background-size: cover;
 }
 
-/* line 84, ../scss/app.scss */
+/* line 82, ../scss/app3.scss */
 .measure {
   background: url("../image/take-measurable-action-bw.jpeg") no-repeat center center fixed;
   background-size: cover;
 }
 
-/* line 93, ../scss/app.scss */
+/* line 91, ../scss/app3.scss */
 .black-background {
   background: url("../image/footer_lodyas/footer_lodyas/footer_lodyas.png") repeat;
   font-size: 1rem;
   padding: 1em;
 }
-/* line 97, ../scss/app.scss */
+/* line 95, ../scss/app3.scss */
 .black-background h1, .black-background h2, .black-background h3, .black-background p, .black-background li, .black-background label, .black-background input, .black-background textarea {
   color: white;
   padding: 0.2em;
-  font-family: "CaviarDreams";
+  font-family: "fira_sansbook";
   font-weight: normal;
   font-style: normal;
 }
-/* line 104, ../scss/app.scss */
+/* line 102, ../scss/app3.scss */
 .black-background h1 {
   color: #e01818;
 }
-/* line 105, ../scss/app.scss */
+/* line 103, ../scss/app3.scss */
 .black-background input, .black-background textarea {
   font-size: 1.3rem;
   border: 0;
 }
-/* line 108, ../scss/app.scss */
+/* line 106, ../scss/app3.scss */
 .black-background input:focus, .black-background textarea:focus {
   background-color: rgba(0, 0, 0, 0.15);
 }
-/* line 109, ../scss/app.scss */
+/* line 107, ../scss/app3.scss */
 .black-background input[type="text"],
 .black-background input[type="email"],
 .black-background input[type="submit"],
 .black-background textarea {
   background-color: rgba(0, 0, 0, 0.15);
 }
-/* line 113, ../scss/app.scss */
+/* line 111, ../scss/app3.scss */
 .black-background input[type="submit"] {
   background-color: rgba(0, 0, 0, 0.15);
   width: 85%;
 }
-/* line 115, ../scss/app.scss */
+/* line 113, ../scss/app3.scss */
 .black-background input[type="submit"]:hover {
   background-color: #e01818;
 }
 
-/* line 118, ../scss/app.scss */
+/* line 116, ../scss/app3.scss */
 .blur {
   background-color: rgba(255, 255, 255, 0.5);
 }
 
-/* line 122, ../scss/app.scss */
+/* line 120, ../scss/app3.scss */
 .custom-panel {
   background-color: rgba(0, 0, 0, 0.15);
 }
 
-/* line 126, ../scss/app.scss */
+/* line 124, ../scss/app3.scss */
 .footer {
   margin-top: 0.1em;
   padding: 1.5em;
 }
 
-/* line 131, ../scss/app.scss */
+/* line 129, ../scss/app3.scss */
 .heart {
   color: #e01818;
   font-size: 1.8rem;
